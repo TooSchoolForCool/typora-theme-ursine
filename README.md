@@ -58,7 +58,6 @@ So if you wanna show appreciation that way, just know that this college boy woul
 
 <details>
 <summary>Ursine Umbra</summary>
-
 ![Umbra Preview 1](images/umbra-1.png)
 ![Umbra Preview 2](images/umbra-2.png)
 ![Umbra Preview 3](images/umbra-3.png)
@@ -75,9 +74,11 @@ Ursine has recently switched to developing in [Sass](https://sass-lang.com/) and
 If you wish to manually build the theme (and maybe add your own touches in the process), you'll need `npm` & run the following commands:
 
 ```bash
-npm i
+sudo npm i -g
 gulp
 ```
+
+If you do not have `gulp` installed, use `sudo npm install gulp -g` to install this package.
 
 The compiled CSS files will be located in the `/dist` directory once complete.
 
